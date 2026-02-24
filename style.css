@@ -1,7 +1,7 @@
 .container{
    display: flex;
    flex-direction: column;
-   heigh: 100vh;
+   height: 100vh;
 }
 .header{
    flex: 20%;
@@ -12,10 +12,12 @@
    background-color: darkgray;
 }
 .content{
- 
+   flex: 70%
+   background-color: lightgray;
 }
 .footer{
-
+   flex: 5%
+   
 }
 
 h1 {
