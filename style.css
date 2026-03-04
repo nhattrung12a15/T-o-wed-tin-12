@@ -6,6 +6,7 @@
 .header{
    flex: 20%;
    background-color: lightgray;
+   background:url(image/doraemon.png)
 }
 .menu{
    flex: 5%;
