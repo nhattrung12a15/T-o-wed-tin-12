@@ -1,0 +1,19 @@
+<html>
+<body>
+    <p id="kq"></p>
+
+    <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten = pp.get("txtTen");
+        let yk = pp.get("txtComment");
+
+        document.getElementById("kq").innerHTML = 
+            "Cảm ơn bạn " + ten +
+            " đã góp ý <br><br>Chúng tôi ghi nhận ý kiến của bạn:<br>" + yk;
+    </script>
+
+    <form action="b7_nv2.html">
+        <input type="submit" name="back" value="Quay lại">
+    </form>
+</body>
+</html>
